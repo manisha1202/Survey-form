@@ -1,0 +1,102 @@
+body{
+	background-color:#ccff99;
+}
+#title{
+	background-color: black;
+	max-width: auto;
+	height:50px;
+	border-bottom: 5px solid #343436;
+}
+h1{
+	font-weight: bold;
+	font-size: 30px;
+	font-family:inherit;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+
+}
+#main{
+	color: lightgray;
+
+}
+#form-div{
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	width:60%;
+	border-radius: 10px;
+}
+#description{
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	margin-top: 5px;
+	font-family: cursive;
+	font-weight: normal;
+}
+#survey-form{
+color: black;
+text-align: center;
+display: block;
+margin-top: 0em;
+}
+
+.fields{
+	width:30%;
+	border-radius: 5px;
+	height: 30px;
+}
+#dropdown{
+	width:40%;
+	border-radius: 5px;
+	height: 30px;
+}
+.checkbox{
+	position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+.labels{
+	display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+ul{
+	display: block;
+    
+}
+.rightTab{
+	display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+.fields{
+	width:50%;
+}
+.redast:before{
+     content:"*" ;
+     color:red;      
+}
+#submit{
+	background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+}
+#submit:hover{
+		background-color:#006699;
+}
+#textarea{
+height:12%;
+}
